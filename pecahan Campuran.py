@@ -1,4 +1,9 @@
-# Definisi type
+# Nama File   = Pecahan Campuran.py
+# Deskripsi   = Membuat tipe bentukan Pecahan campuran 
+# Nama        = akmal kafli anan
+# Tanggal     = 21 Oktober 2024
+
+# Definisi Dan Spesifikasi type
 # type PecahanC: <bil:Integer, n:Integer>=0, d:Integer>0>
 #   {<bil,n,d> adalah sebuah Pecahan Campuran dengan bil adalah Bilangan, n adalah Pembilang, d adalah Penyebut}
 # 
