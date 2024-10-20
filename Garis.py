@@ -80,6 +80,6 @@ def IsTegakLurus(G1,G2):
 
 # Aplikasi
 print(Gradien(makeGaris(makePoint(2,3), makePoint(7,9))))
-print(PanjangGaris(makeGaris(makePoint(2,3), makePoint(7,8))))
+print(PanjangGaris(makeGaris(makePoint(2,3), makePoint(7,9))))
 print(IsSejajar(makeGaris(makePoint(0,3),makePoint(2,7)),makeGaris(makePoint(0,-4),makePoint(2,0))))
 print(IsTegakLurus(makeGaris(makePoint(1,1),makePoint(2,2)),makeGaris(makePoint(1,1),makePoint(2,0))))
