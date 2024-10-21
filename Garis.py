@@ -1,6 +1,7 @@
 # Nama File   = Garis.py
 # Deskripsi   = Membuat tipe bentukan garis 
 # Nama        = Akmal Kafli Anan
+# NIM         = 24060124120042
 # Tanggal     = 28 September 2024
 
 # Definisi dan Spesifikasi type

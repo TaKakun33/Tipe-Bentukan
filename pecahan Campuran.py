@@ -1,6 +1,7 @@
 # Nama File   = Pecahan Campuran.py
 # Deskripsi   = Membuat tipe bentukan Pecahan campuran 
 # Nama        = akmal kafli anan
+# NIM         = 24060124120042
 # Tanggal     = 21 Oktober 2024
 
 # Definisi Dan Spesifikasi type
