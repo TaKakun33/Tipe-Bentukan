@@ -69,9 +69,9 @@ def Gradien(G):
     return (Getordinat(GetPoint2(G)) - Getordinat(GetPoint1(G))) / (Getabsis(GetPoint2(G)) - Getabsis(GetPoint1(G)))
 
 def PanjangGaris(G):
-    panjang_x = Getabsis(GetPoint2(G)) - Getabsis(GetPoint1(G))
-    panjang_y = Getordinat(GetPoint2(G)) - Getordinat(GetPoint1(G))
-    return ((panjang_x * panjang_x) + (panjang_y * panjang_y))**0.5
+    panjangX = Getabsis(GetPoint2(G)) - Getabsis(GetPoint1(G))
+    panjangY = Getordinat(GetPoint2(G)) - Getordinat(GetPoint1(G))
+    return ((panjangX * panjangX) + (panjangY * panjangY))**0.5
 
 def IsSejajar(G1,G2):
     return Gradien(G1) == Gradien(G2)
