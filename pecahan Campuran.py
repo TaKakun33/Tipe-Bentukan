@@ -92,14 +92,14 @@ def AddP(Pc1,Pc2):
 def SubP(Pc1,Pc2):
     return(makePc(getBil(Pc1) - getBil(Pc2),getPemb(Pc1)*getPeny(Pc2) - getPemb(Pc2)*getPeny(Pc1),getPeny(Pc1)*getPeny(Pc2)))
 
-def MulP(Pc1,Pc2):
-    pembX2 = (getPeny(Pc1)*getBil(Pc1) + getPemb(Pc1)) * (getPeny(Pc2)*getBil(Pc2) + getPemb(Pc2))
-    penyX2 =  getPeny(Pc1) * getPeny(Pc2)
-    return makePc(pembX2//penyX2, pembX2%penyX2, penyX2)
-
 def DivP(Pc1,Pc2):
     pembX2 = (getPeny(Pc1)*getBil(Pc1) + getPemb(Pc1)) * (getPeny(Pc2))
     penyX2 = (getPeny(Pc1)) * (getPeny(Pc2)*getBil(Pc2) + getPemb(Pc2))
+    return makePc(pembX2//penyX2, pembX2%penyX2, penyX2)
+
+def MulP(Pc1,Pc2):
+    pembX2 = (getPeny(Pc1)*getBil(Pc1) + getPemb(Pc1)) * (getPeny(Pc2)*getBil(Pc2) + getPemb(Pc2))
+    penyX2 =  getPeny(Pc1) * getPeny(Pc2)
     return makePc(pembX2//penyX2, pembX2%penyX2, penyX2)
 
 def isEqP(Pc1,Pc2):
@@ -118,8 +118,8 @@ print(konvesiReal(makePc(-2,3,5)))
 print(AddP(makePc(5,2,5),makePc(1,1,6)))
 print(SubP(makePc(5,2,5),makePc(1,1,6)))
 
-print(MulP(makePc(3,2,5),makePc(2,1,8)))
 print(DivP(makePc(3,3,5),makePc(2,1,8)))
+print(MulP(makePc(3,2,5),makePc(2,1,8)))
 
 print(isEqP(makePc(2,2,16),makePc(2,1,8)))
 print(isLtP(makePc(2,1,16),makePc(2,1,8)))
